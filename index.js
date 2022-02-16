@@ -7,7 +7,7 @@ const contactSchema = require("./model/name")
 app.use(cors());
 app.use(express.json());
 
-const uri = "mongodb+srv://ashcoder:ash123@cluster0.zukbu.mongodb.net/sampledatabase?retryWrites=true&w=majority";
+const uri = // uri from mongo db
 
 mongoose.connect(uri,{useNewUrlParser:true});
 
